@@ -23,9 +23,26 @@ body{
     height:100vh; 
     width:100%;
 }
-html::-webkit-scrollbar, #swipe-h::-webkit-scrollbar, #swipe-v::-webkit-scrollbar{
-    display:none;
+html::-webkit-scrollbar{
+    display: none;
 }
+#swipe-h::-webkit-scrollbar, #swipe-v::-webkit-scrollbar{
+    display:auto;
+}
+
+#swipe-h::-webkit-scrollbar, #swipe-v::-webkit-scrollbar{
+    width: auto;
+  }
+  #swipe-h::-webkit-scrollbar-track, #swipe-v::-webkit-scrollbar-track {
+    background: #f5eee8;
+  }
+
+  #swipe-h::-webkit-scrollbar-thumb, #swipe-v::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+
 .image{
     scroll-snap-align: start;
     height:100vh;

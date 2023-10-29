@@ -8,8 +8,18 @@ html{
     font-family: fantasy;
     scroll-behavior:smooth;
 }
-html::-webkit-scrollbar{
-    display:none;
+::-webkit-scrollbar {
+    width: 13px;
+  }
+
+::-webkit-scrollbar-track {
+    background: #f9fafa;
+  }
+
+::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
 }
 body{
     animation: fade-in1 1s;

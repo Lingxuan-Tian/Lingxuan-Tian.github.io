@@ -6,9 +6,20 @@ html{
     background-size:100% 100vh;
     background-attachment:fixed;
     scroll-behavior:smooth;
+    overflow-y: hidden;
 }
-html::-webkit-scrollbar{
-    display:none;
+::-webkit-scrollbar {
+    width: 13px;
+  }
+
+::-webkit-scrollbar-track {
+    background: #f4eee7;
+  }
+
+::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
 }
 body{
     animation: fade-in 2s;

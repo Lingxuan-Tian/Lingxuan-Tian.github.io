@@ -6,9 +6,11 @@ html{
     background-attachment:fixed;
     scroll-behavior:smooth;
 }
-html::-webkit-scrollbar{
-    display:none;
-}
+
+::-webkit-scrollbar-track {
+    background: #cbc5c2;
+  }
+
 body{
     animation: fade-in 1s;
 }
